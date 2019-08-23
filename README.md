@@ -2,16 +2,17 @@
 
 Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
 
-<h1> Runngin Application </h1>
+## Runngin Application
 
 1. Clone the application code
 2. Run "yarn" inside "crud" directory
 3. Run "yarn start" once the second step is completed
 
-<h2> Accessing API's </h2>
+## Accessing API's
 
 1. http://localhost:8090/auth/signup - Use this url to register as user
-  values that has to be posted to this route/end point/url/path
+  values that has to be posted to this route/end point/url/path <br/>  return
+  
   {
     "firstname": "Manasa",
     "lastname: "R",
@@ -28,7 +29,7 @@ values that has to be posted to this route/end point/url/path are
   }
   Upone login successful, redirect user to some other page
   
-<h2> Layout </h2>
+## Layout design
 
 1. Create signin page using bootstrap 4. The signin page should contain a form with the following fields
   a. email input field - required
