@@ -10,8 +10,8 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
 
 ## Accessing API's
 
-1. http://localhost:8090/auth/signup - Use this url to register as user
-  values that has to be posted to this route/end point/url/path <br/>  
+1. http://localhost:8090/auth/signup - Use this url to register an user <br/>  
+  send following kind of data to create user <br/>  
   
   { "firstname": "Manasa", <br/>  
     "lastname: "R", <br/>  
@@ -20,8 +20,8 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
    } <br/> 
    Upon registration successful, show the user that the registration is successful <br/>  
    
-2. http://localhost:8090/auth/signin - Use this url to login to the application
-values that has to be posted to this route/end point/url/path are <br/>  
+2. http://localhost:8090/auth/signin - Use this url to login to the application <br/>  
+  send following kind of data to login to the application <br/>  
   { email: "manasa@gmail.com", <br/>  
     password: "{your password}" <br/>  
   } <br/>  
