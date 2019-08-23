@@ -11,7 +11,7 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
 ## Accessing API's
 
 1. http://localhost:8090/auth/signup - Use this url to register as user
-  values that has to be posted to this route/end point/url/path <br/>  return
+  values that has to be posted to this route/end point/url/path <br/>  
   
   {
     "firstname": "Manasa",
