@@ -30,17 +30,18 @@ values that has to be posted to this route/end point/url/path are <br/>
 ## Layout design
 
 1. Create signin page using bootstrap 4. The signin page should contain a form with the following fields <br/>  
-  a. email input field - required <br/>  
-  b. password input field - required <br/>  
-  c. Submit button <br/>  
+  a. email input field - required
+  b. password input field - required
+  c. Submit button
   
   Using jquery ajax call submit the data in the input fields to the 'http://localhost:8090/auth/signin'. If the authentication is successful redirect user to some different page <br/>  
   
 2. Create signup page using bootstrap 4. The signup page should contain a form with the following fields <br/>  
-  a. firstname input field - required <br/>  
-  b. lastname input field - required <br/>  
-  c. email input field - required <br/>  
-  d. password input field - required <br/>  
+  a. firstname input field - required 
+  b. lastname input field - required
+  c. email input field - required 
+  d. password input field - required
+  e. Submit button
 
 
   Using jquery ajax call submit the data in the input fields to the 'http://localhost:8090/auth/signup'. If the registration is succesful or failure show him respective success/error message
