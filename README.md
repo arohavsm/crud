@@ -13,18 +13,16 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
 1. http://localhost:8090/auth/signup - Use this url to register as user
   values that has to be posted to this route/end point/url/path <br/>  
   
-  { <br/>  
-    "firstname": "Manasa", <br/>  
+  { "firstname": "Manasa", <br/>  
     "lastname: "R", <br/>  
     "email": "manasa@gmail.com", // doesn't matter. Could be any eamil or normal username <br/>  
     "password: "{your password}" <br/>  
-   }
+   } <br/> 
    Upon registration successful, show the user that the registration is successful <br/>  
    
 2. http://localhost:8090/auth/signin - Use this url to login to the application
 values that has to be posted to this route/end point/url/path are <br/>  
-  { <br/>  
-    email: "manasa@gmail.com", <br/>  
+  { email: "manasa@gmail.com", <br/>  
     password: "{your password}" <br/>  
   } <br/>  
   Upone login successful, redirect user to some other page
