@@ -4,6 +4,9 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
 
 ## Runngin Application
 
+-> Install NodeJS
+-> Install MongoDB
+
 1. Clone the application code from https://github.com/arohavsm/crud.git <br/>  
 2. Run "yarn" inside "crud" directory <br/>  
 3. Run "yarn start" once the second step is completed <br/>  
