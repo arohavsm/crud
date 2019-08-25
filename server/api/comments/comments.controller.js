@@ -77,17 +77,20 @@ export const update = async ( req, res ) => {
     if(!title || !body) {
       return res.status(500).send({ message: 'Title or body is empty'})
     }
-    const result = await Comment.findByIdAndUpdate(id, { $set: { title, body }})
+
+    const result = await Comment.updateOne({ _id: mongoose.Types.ObjectId(id)}, { $set: { title, body }})
     if (!result) {
       return res.status(500).send({ message: 'Could not find the target comment' })
     }
     const newTitle = result.title
     const newBody = result.body
+
     return res.send({
       _id: id,title: newTitle, body: newBody,
-      message: `Updated comment successfully for the title ${title} to ${newTitle}`
+      message: `Updated comment successfully for the title`
     })
   } catch (e) {
+    console.log(e)
     return res.status(500).send({ message: 'Could not update the comment'})
   }
 }
