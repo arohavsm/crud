@@ -57,4 +57,13 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
   Using jquery ajax call submit the data in the input fields to the 'http://localhost:8090/auth/signup'. 
   If the registration is succesful or failure show him respective success/error message.
 
+
+## COMMENTS - CURD
+### What is it?
+Here we are enabling Login user to get/add/update/remove comments.
+
+There will be two input boxes in the comments page which are
+
+ - input field with label title
+ - text area with label body
  
