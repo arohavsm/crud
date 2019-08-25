@@ -38,20 +38,20 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
 ## Layout design
 
 1. Create signin page using bootstrap 4. The signin page should contain a form with the following fields <br/>  
-  a. email input field - required <br/>  
-  b. password input field - required <br/>  
-  c. Submit button <br/>  
+  - email input field - required <br/>  
+  - password input field - required <br/>  
+  - Submit button <br/>  
   
   Using jquery ajax call submit the data in the input fields to the 'http://localhost:8090/auth/signin'. If the authentication is successful redirect user to some different page <br/>  
   
 2. Create signup page using bootstrap 4. The signup page should contain a form with the following fields <br/>  
-  a. firstname input field - required <br/>  
-  b. lastname input field - required <br/>  
-  c. email input field - required <br/>  
-  d. password input field - required <br/>  
-  e. Submit button <br/>  
+  - firstname input field - required <br/>  
+  - lastname input field - required <br/>  
+  - email input field - required <br/>  
+  - password input field - required <br/>  
+  - Submit button <br/>  
 
 
-  Using jquery ajax call submit the data in the input fields to the 'http://localhost:8090/auth/signup'. If the registration is succesful or failure show him respective success/error message
+  Using jquery ajax call submit the data in the input fields to the 'http://localhost:8090/auth/signup'. If the registration is    succesful or failure show him respective success/error message
 
  
