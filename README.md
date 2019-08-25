@@ -97,6 +97,6 @@ There will be two input boxes in the comments page which are
  2. Get comments from the following url and display them in a table under the form
 
     ```
-      Make request with authorization header. No need to sending any data.
+      Make request with authorization header. No need to send any data.
       API_END_POINT: http://localhost:8090/api/comments
     ```
