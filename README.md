@@ -71,6 +71,7 @@ There will be two input boxes in the comments page which are
   Create a page where it contains following two sections
 
   - Form Section
+  
     The form section should contain two fields and a submit button. The two fields are title input field and body text area
 
   - Table Section
