@@ -32,8 +32,8 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
     email: "manasa@gmail.com",
     password: "{your password}"
   }
-  ** Once user login is successful, display successful message and set local storate to the token in the response which came from 
-     backend. After display success message & setting token redirect user to comments page after 200ms **
+  ** Once user login is successful, display successful message and set local storage using the token in the
+     response. After displaying success message & setting token redirect user to comments page after 200ms **
   ```
   
 ## Layout design
