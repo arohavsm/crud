@@ -43,7 +43,8 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
   - password input field - required  
   - Submit button 
   
-  Using jquery ajax call submit the data in the input fields to the 'http://localhost:8090/auth/signin'. If the authentication is successful redirect user to some different page <br/>  
+  Using jquery ajax call submit the data in the input fields to the 'http://localhost:8090/auth/signin'.
+  Refer ** Sign in(2nd point) what to do after successful signin **
   
 2. Create signup page using bootstrap 4. The signup page should contain a form with the following fields <br/>  
   - firstname input field - required 
@@ -53,6 +54,7 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
   - Submit button
 
 
-  Using jquery ajax call submit the data in the input fields to the 'http://localhost:8090/auth/signup'. If the registration is    succesful or failure show him respective success/error message
+  Using jquery ajax call submit the data in the input fields to the 'http://localhost:8090/auth/signup'. 
+  If the registration is succesful or failure show him respective success/error message.
 
  
