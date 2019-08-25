@@ -26,10 +26,13 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
    Upon registration successful, show the user that the registration is successful <br/>  
    
 2. http://localhost:8090/auth/signin - Use this url to login to the application <br/>  
-  send following kind of data to login to the application <br/>  
-  { email: "manasa@gmail.com", <br/>  
-    password: "{your password}" <br/>  
-  } <br/>  
+  send following kind of data to login to the application
+  ```javascript
+  { 
+    email: "manasa@gmail.com",
+    password: "{your password}"
+  }
+  ```
   Upone login successful, redirect user to some other page
   
 ## Layout design
