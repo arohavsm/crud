@@ -15,7 +15,7 @@ export const signin = async (req, res) => {
     return res.send({
       firstname,lastname,
       _id, email,
-      user: _id,
+      token: _id,
       isLoggedIn: true
     })
   } catch (e) {
