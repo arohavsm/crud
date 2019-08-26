@@ -21,10 +21,10 @@ commentsRouter.use((req,res,next) => {
 })
 
 commentsRouter.route('/')
-  .get(getAll)
+  .get(getHeader,getAll)
   .post(getHeader, add)
 
 commentsRouter.route('/:id')
- .get(getCommentById)
- .put(update)
- .delete(remove)
+ .get(getHeader, getCommentById)
+ .put(getHeader ,update)
+ .delete(getHeader, remove)
