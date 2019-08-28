@@ -106,3 +106,7 @@ There will be two input boxes in the comments page which are
  
     | title | body | edit | delete |
     
+ ## Managing Guest & Logged In user
+ 1. The logged in user should not have access to Login/Register page
+ 2. The Guest User should not have access to Comments Page
+    
