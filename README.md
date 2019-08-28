@@ -35,6 +35,11 @@ Simple CRUD( Create, Read, Update & Delete app ) REST API using Node
   ** Once user login is successful, display successful message and set local storage using the token in the
      response. After displaying success message & setting token redirect user to comments page after 200ms **
   ```
+  ### Table format
+  ```
+    | title | body | edit | delete |
+    | ----- | ---- | ---- | ------ |
+  ```
   
 ## Layout design
 
