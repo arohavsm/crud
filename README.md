@@ -103,9 +103,6 @@ There will be two input boxes in the comments page which are
       API_END_POINT: http://localhost:8090/api/comments
     ```
   ### Table format
-  
-  ```
+ 
     | title | body | edit | delete |
     
-    | ----- | ---- | ---- | ------ |
-  ```
