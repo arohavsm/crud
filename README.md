@@ -116,4 +116,8 @@ There will be two input boxes in the comments page which are
     Confirmation. If user selects yes the item should be deleted or
     
     Should not be deleted.
+
+    Use type:"delete" in ajax call
     
+    API_END_POINT: http://localhost:8090/api/comments/<ID OF COMMENT>
+    Makes sure you send token in the header
